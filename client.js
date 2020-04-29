@@ -17,7 +17,7 @@ const connect = function() {
     console.log(`Server Says: `,'successfully connected to the snake server' )
 })
 conn.on('connect', () => {
-    conn.write("Name: BOB")
+    conn.write("Name: RSJ")
   
 })
 // conn.on('connect', (data) => {
